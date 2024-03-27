@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: java-reach-goat
+  annotations:
+    github.com/project-slug: snyk/java-reach-goat
+    github.com/team-slug: snyk/t42
+spec:
+  type: tests
+  lifecycle: '-'
+  owner: t42
